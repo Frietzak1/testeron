@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+        <script src="script.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <main>
+            <form>
+                <h1>Inloggen</h1>
+                <div id="gebruikersnaam">
+                    <label for="username">Gebruikersnaam</label>
+                    <img class="icons" src="media/icons/user.png">
+                    <input type="text" placeholder="Gebruikersnaam" name="username" required>
+                </div>
+
+                <div id="wachtwoord">
+                    <label for="password">Wachtwoord</label>
+                    <img class="icons" src="media/icons/lock.png">
+                    <input type="password" placeholder="Wachtwoord" name="password" id="psw" required>
+                </div>
+
+                <div id="tww">
+                    <input type="checkbox" onclick="show()"><span id="toggle-span"> Wachtwoord tonen</span>
+                </div>
+
+                <div id="nga">Nog geen account?</div>
+
+                <div id="inloggen">
+                    <input type="submit" value="Inloggen">
+                </div>
+            </form>
+         </main>
+    </body>
+</html>
